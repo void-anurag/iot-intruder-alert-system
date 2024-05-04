@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "object-detection"
+version = "0.1.0"
+description = ""
+authors = ["Reuben-Stephen-John <reuben.sj2003@gmail.com>"]
+readme = "README.md"
+packages = [{include = "object_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+python-telegram-bot = "^20.3"
+pytelegrambotapi = "^4.12.0"
+imutils = "^0.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
